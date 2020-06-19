@@ -1,6 +1,10 @@
-count_file_change_times.py can count how many times the file is changed in the past.
+Tools to help analyze apollo:
 
-get_tests_assertion.py get test cases and each assertions from a test file
+count_file_change_times.py : count how many times the file is changed in the past.
 
-analyze_proto/output/proto_analyze, protos in apollo are decode to .pb.cc and .pb.h 
+get_tests_assertion.py : get test cases and each assertions from a test file
+
+analyze_proto/output/proto_analyze : protos in apollo are decoded to .pb.cc and .pb.h 
+
+build_proto_dependency_graph.py : help to build dependency graph
 
