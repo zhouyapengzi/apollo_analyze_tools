@@ -8,3 +8,8 @@ analyze_proto/output/proto_analyze : protos in apollo are decoded to .pb.cc and 
 
 build_proto_dependency_graph.py : help to build dependency graph
 
+neuron_coverage: mlp neuron coverage is done based on Apollo-5.0. when using it, copy the file to replace apollo files. the neuron coverage will be printed in apollo logs. caffe for perception only partly done. 
+
+insertLogToMethod: script to insert logs at the beginning and end of a method.
+
+ 
